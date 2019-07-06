@@ -28,12 +28,12 @@ a {
 
 h1 {
   margin-bottom: 6px;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 32px;
 }
 
 .title {
-  font-size: 12px;
+  /* font-size: 12px; */
   line-height: 18px;
   margin-bottom: 12px;
 }
@@ -43,7 +43,7 @@ h1 {
 }
 
 .contact-details li {
-  font-size: 10px;
+  font-size: 12px;
   list-style: none;
   padding: 0 10px;
   border-right: 1px solid rgb(72, 72, 72);
@@ -59,14 +59,14 @@ section {
 }
 
 h2.section-title {
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 12px;
   line-height: 18px;
 }
 
 p.body {
   line-height: 18px;
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 
 table {
@@ -74,10 +74,11 @@ table {
 }
 
 .skills__title {
-  padding-right: 10px;
-  line-height: 16px;
+  padding-right: 15px;
+  line-height: 18px;
+  width: 35%;
   /* padding-bottom: 5px; */
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 
 .skills__title::after {
@@ -87,7 +88,7 @@ table {
 .skills__list {
   font-weight: 500;
   /* padding-bottom: 5px; */
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 
 .work-experience {
@@ -100,7 +101,7 @@ table {
 }
 
 .work-experience__company {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   display: table-cell;
   width: 50%;
@@ -109,21 +110,21 @@ table {
 
 .work-experience__location {
   font-style: italic;
-  font-size: 12px;
+  /* font-size: 12px; */
   display: table-cell;
   text-align: right;
   width: 50%;
 }
 
 .work-experience__position {
-  font-size: 12px;
+  /* font-size: 12px; */
   display: table-cell;
   width: 50%;
 }
 
 .work-experience__period {
   font-style: italic;
-  font-size: 12px;
+  /* font-size: 12px; */
   color: rgb(118, 118, 118);
   display: table-cell;
   width: 50%;
@@ -141,6 +142,6 @@ table {
 
 .work-experience__responsibility {
   color: rgb(118, 118, 118);
-  font-size: 12px;
+  /* font-size: 12px; */
   line-height: 18px;
 }
