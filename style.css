@@ -14,6 +14,28 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  margin-bottom: 6px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  line-height: 18px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.title {
+  font-weight: 700;
+}
+
 .wrapper {
   /* width: 700px; */
   margin: 0 auto;
@@ -26,24 +48,11 @@ a {
   text-align: center;
 }
 
-h1 {
-  margin-bottom: 6px;
-  font-size: 32px;
-  line-height: 32px;
-}
-
-.title {
-  /* font-size: 12px; */
-  line-height: 18px;
-  margin-bottom: 12px;
-}
-
 .contact-details {
   margin: 10px auto;
 }
 
 .contact-details li {
-  font-size: 12px;
   list-style: none;
   padding: 0 10px;
   border-right: 1px solid rgb(72, 72, 72);
@@ -58,27 +67,22 @@ section {
   margin: 30px 0;
 }
 
-h2.section-title {
-  font-size: 22px;
-  margin-bottom: 12px;
+p {
   line-height: 18px;
-}
-
-p.body {
-  line-height: 18px;
-  /* font-size: 12px; */
 }
 
 table {
   width: 70%;
 }
 
+.skills__details {
+  margin-bottom: 14px;
+}
+
 .skills__title {
   padding-right: 15px;
   line-height: 18px;
   width: 35%;
-  /* padding-bottom: 5px; */
-  /* font-size: 12px; */
 }
 
 .skills__title::after {
@@ -101,16 +105,13 @@ table {
 }
 
 .work-experience__company {
-  font-size: 18px;
-  font-weight: 700;
   display: table-cell;
   width: 50%;
-  padding-bottom: 3px;
+  /* padding-bottom: 3px; */
 }
 
 .work-experience__location {
   font-style: italic;
-  /* font-size: 12px; */
   display: table-cell;
   text-align: right;
   width: 50%;
