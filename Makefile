@@ -1,5 +1,5 @@
 generate:
-	wkhtmltopdf --dpi 350 index.html jeff.pdf
+	xvfb-run -- wkhtmltopdf --dpi 350 index.html jeff.pdf
 
 clean:
 	rm *.pdf

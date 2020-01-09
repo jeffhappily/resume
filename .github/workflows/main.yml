@@ -14,7 +14,7 @@ jobs:
 
       - name: Install wkhtmltopdf
         run: |
-          sudo apt-get update && sudo apt-get install wkhtmltopdf -y
+          sudo apt-get update && sudo apt-get install wkhtmltopdf xvfb-run -y
 
       - name: Generate PDF
         run: |
