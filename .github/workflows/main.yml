@@ -27,7 +27,7 @@ jobs:
       - name: Commit
         run: |
           # If there's new changes
-          if [[ $(git diff --stat) != '' ]]; then
+          if [[ -z $(git status -s) ]]; then
             git config --global user.name "Superb Bot"
 
             git add jeff.pdf
