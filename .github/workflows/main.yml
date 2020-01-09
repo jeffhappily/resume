@@ -27,6 +27,8 @@ jobs:
       - name: Commit
         run: |
           # If there's new changes
+          ls
+          git status
           if [[ -z $(git status -s) ]]; then
             git config --global user.name "Superb Bot"
 
