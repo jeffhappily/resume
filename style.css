@@ -6,7 +6,7 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(72, 72, 72);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 a {
@@ -16,15 +16,15 @@ a {
 
 h1 {
   margin-bottom: 6px;
-  font-size: 32px;
+  font-size: 34px;
   line-height: 32px;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 12px;
-  line-height: 18px;
+  line-height: 22px;
 }
 
 h3 {
@@ -34,6 +34,7 @@ h3 {
 
 .title {
   font-weight: 700;
+  color: rgb(60, 60, 60);
 }
 
 .wrapper {
@@ -54,9 +55,15 @@ h3 {
 
 .contact-details li {
   list-style: none;
-  padding: 0 10px;
-  border-right: 1px solid rgb(72, 72, 72);
-  display: inline-block;
+  /* padding: 0 10px; */
+  /* border-right: 1px solid rgb(72, 72, 72); */
+  display: inline;
+}
+
+.contact-details li:not(:last-child)::after {
+  content: "\00b7";
+  margin: 0 .25em;
+  font-weight: bold;
 }
 
 .contact-details li:last-child {
@@ -68,7 +75,7 @@ section {
 }
 
 p {
-  line-height: 18px;
+  line-height: 20px;
 }
 
 table {
@@ -81,7 +88,7 @@ table {
 
 .skills__title {
   padding-right: 15px;
-  line-height: 18px;
+  line-height: 20px;
   width: 35%;
 }
 
@@ -144,5 +151,5 @@ table {
 .work-experience__responsibility {
   color: rgb(118, 118, 118);
   /* font-size: 12px; */
-  line-height: 18px;
+  line-height: 20px;
 }
