@@ -24,14 +24,11 @@ jobs:
           make clean
           make generate
 
-      - name: Commit
-        run: |
-          # If there's new changes
-          if [[ ! -z $(git status -s) ]]; then
-            git config --global user.name "Superb Bot"
+      - uses: chrislennon/action-aws-cli@v1.1
 
-            git add jeff.pdf
-            git commit -m "Publish changes"
-           
-            git push -u origin master
-          fi
+      - name: Publish to s3 bucket
+        run: |
+          [[ -n $(git status -s) ]] && aws s3 cp jeff.pdf s3://resume-jeffhappily
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
