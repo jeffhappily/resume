@@ -75,13 +75,16 @@ sections:
     children:
       - header:
           title: Programming Languages
-          subtitle: Experienced in Ruby, Golang, Typescript, Familiar with Java, Python, Kotlin, Haskell
+          subtitle: Fluent in Ruby, Golang, TypeScript, Experienced with Java, Python, Kotlin, Haskell
+      - header:
+          title: Web
+          subtitle: Experienced with HTML, CSS, JavaScript, Ruby on Rails, React JS, Vue JS, SQL, MySQL, SQLite & PostgreSQL
       - header:
           title: DevOps
-          subtitle: Have experience working with tools like Circle CI, Bitbucket Pipeline, Docker, Jira, Terraform, Kubernetes etc
+          subtitle: Experienced with Circle CI, Bitbucket Pipeline, Docker, Jira, Terraform, Kubernetes, AWS services like EC2, S3, EBS, ELB, ASG etc
       - header:
-          title: Cloud Platform
-          subtitle: Familiar with AWS services like EC2, S3, EBS, ELB, ASG etc
+          title: Tools
+          subtitle: Experienced with Github, Gitlab, Bitbucket, VS Code & Intellj IDEA
       # - header:
       #     title: Interest
       #     subtitle: Particularly interested in Functional Programming, Mathematical Logic, Programming Language Theory (Type Theory, Proof Assistant, Program Analysis)
