@@ -6,20 +6,13 @@
 }
 
 body {
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-family: 'PT Serif', serif;
-  color: rgb(72, 72, 72);
   font-size: 15px;
 }
 
 a {
-  color: rgb(72, 72, 72);
+  color: black;
   text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  
-
 }
 
 h1 {
@@ -47,7 +40,7 @@ h3 {
 
 .title {
   font-weight: 700;
-  color: rgb(60, 60, 60);
+  /* color: rgb(60, 60, 60); */
 }
 
 .wrapper {
@@ -63,6 +56,11 @@ h3 {
 .contact-details {
   max-width: 600px;
   margin: 10px auto;
+  color: rgb(118, 118, 118);
+}
+
+.contact-details a {
+  color: rgb(118, 118, 118);
 }
 
 .contact-details li {
@@ -91,14 +89,6 @@ p {
 
 table {
   width: 70%;
-}
-
-.skills__details {
-  margin-bottom: 14px;
-}
-
-.skills__list {
-  font-weight: 500;
 }
 
 .flex {
@@ -134,7 +124,7 @@ table {
 
 .section-extra-subheader {
   font-style: italic;
-  color: rgb(118, 118, 118);
+  color: rgb(72, 72, 72);;
   display: table-cell;
   width: 50%;
   text-align: right;
