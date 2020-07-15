@@ -8,6 +8,7 @@
 body {
   font-family: 'PT Serif', serif;
   font-size: 15px;
+  color: rgb(50, 50, 50);
 }
 
 a {
@@ -30,7 +31,6 @@ h2 {
   color: rgb(56,115,179);
   border-bottom: 1px solid rgb(56,115,179);
   padding-bottom: 5px;
-
 }
 
 h3 {
