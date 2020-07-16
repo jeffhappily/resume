@@ -80,7 +80,7 @@ h3 {
 }
 
 section {
-  margin: 30px 0;
+  margin: 25px 0;
 }
 
 p {
@@ -97,7 +97,7 @@ table {
 
 /* Will try to generalize everything with this section */
 .section-object {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .section-header {
@@ -132,7 +132,7 @@ table {
 
 .section-body {
   padding-left: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
   list-style-type: circle;
 }
 
