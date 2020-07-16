@@ -68,7 +68,7 @@ sectionTemplate (Section {..}) = [shamlet|
     <div .section-object>
       <div .section-header>
         <div .flex>
-          <h3 .section-title>#{title header}
+          <h3 .section-title>#{preEscapedToHtml $ title header}
           $maybe extraHeader' <- extraHeader header
             <p .section-extra-header>#{extraHeader'}
         

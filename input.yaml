@@ -60,17 +60,25 @@ sections:
         body:
           - Implemented lab test system that allows doctor to issue lab test to patients.
           - Built a real time chat system using WebSocket.
-          - Built a B2B system that includes payment using credit for employee and a dashboard for employer to monitor.
+          - Built a B2B system that includes credit payment and a monitoring dashbaord.
           # - Maintained and improved existing features such as prescription issuing, video call.
-  # - name: Project
-  #   children:
-  #     - header:
-  #         title: Eva
-  #         subtitle: Malaysia Developers' Day 2016
-  #       body:
-  #         - Eva (A feminine term for event) is a chatbot, it can help you plan your event based on your requirements.
-  #         - It was conversational based, you just have to talk to Eva without typing.
-  #         - Developed using Text-to-Speech technology, Ruby on Rails and Api.ai (AKA DialogFlow).
+  - name: Project
+    children:
+      - header:
+          title: <a href="https://github.com/jeffhappily/while">While language</a>
+          subtitle: A simple imperative programming language implemented in Haskell just to learn about how compiler works
+      - header:
+          title: <a href="https://github.com/jeffhappily/wyah">WYAH</a>
+          subtitle: A series of language implementations to learn more about programming languages and types.
+        body:
+          - It includes an untyped lambda calculus, a language with simple type using small-step semantics, and a simply typed lambda calculus.
+      # - header:
+      #     title: Eva
+      #     subtitle: Malaysia Developers' Day 2016
+      #   body:
+      #     - Eva (A feminine term for event) is a chatbot, it can help you plan your event based on your requirements.
+      #     - It was conversational based, you just have to talk to Eva without typing.
+      #     - Developed using Text-to-Speech technology, Ruby on Rails and Api.ai (AKA DialogFlow).
   - name: Skills
     children:
       - header:
