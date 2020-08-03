@@ -111,7 +111,7 @@ table {
 }
 
 .section-extra-header {
-  font-style: italic;
+  font-weight: bold;
   display: table-cell;
   text-align: right;
   width: 50%;
