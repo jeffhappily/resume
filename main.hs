@@ -4,6 +4,7 @@
     --ghc-options -Wall
     --package blaze-html
     --package shakespeare
+    --package time
     --package yaml
 -}
 {-# LANGUAGE DeriveGeneric #-}
@@ -12,6 +13,8 @@
 {-# LANGUAGE QuasiQuotes     #-}
 {-# LANGUAGE RecordWildCards     #-}
 
+import           Data.Time.Clock
+import           Data.Time.Format
 import           Data.Yaml (FromJSON (..))
 import qualified Data.Yaml as Y
 import           GHC.Generics (Generic)
@@ -83,8 +86,8 @@ sectionTemplate (Section {..}) = [shamlet|
             <li .section-body-list>#{preEscapedToHtml b}
 |]
 
-template :: String -> Resume -> Html
-template css (Resume {..}) = [shamlet|
+template :: String -> Resume -> String -> Html
+template css (Resume {..}) d = [shamlet|
 $doctype 5
 <html>
   <head>
@@ -99,6 +102,7 @@ $doctype 5
         <ul .contact-details>
           $forall c <- contact
             <li>#{preEscapedToHtml c}
+          <li>#{d}
       $forall section <- sections
         #{preEscapedToHtml $ sectionTemplate section}
 |]
@@ -109,9 +113,16 @@ inputFile = "input.yaml"
 cssFile :: String
 cssFile = "style.css"
 
+dateFormat :: String
+dateFormat = "%d %B %Y"
+
+date :: IO String
+date = getCurrentTime >>= return . formatTime defaultTimeLocale dateFormat
+
 main :: IO ()
 main = do
   css <- readFile cssFile
   config <- Y.decodeFileThrow inputFile
+  d <- date
   
-  putStrLn $ renderHtml $ template css config
+  putStrLn $ renderHtml $ template css config d

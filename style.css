@@ -40,7 +40,6 @@ h3 {
 
 .title {
   font-weight: 700;
-  /* color: rgb(60, 60, 60); */
 }
 
 .wrapper {
@@ -54,9 +53,10 @@ h3 {
 }
 
 .contact-details {
-  max-width: 600px;
+  max-width: 550px;
   margin: 10px auto;
   color: rgb(118, 118, 118);
+  list-style-type: none;
 }
 
 .contact-details a {
@@ -64,19 +64,14 @@ h3 {
 }
 
 .contact-details li {
-  list-style: none;
   display: inline;
   line-height: 22px;
 }
 
 .contact-details li:not(:last-child)::after {
-  content: "\00b7";
+  content: "•";
   margin: 0 .25em;
   font-weight: bold;
-}
-
-.contact-details li:last-child {
-  border-right: none;
 }
 
 section {
