@@ -65,7 +65,7 @@ sections:
           subtitle: A simple imperative programming language implemented in Haskell just to learn about how compiler works
       - header:
           title: <a href="https://github.com/jeffhappily/wyah">WYAH</a>
-          subtitle: A series of language implementations to learn more about programming languages and types.
+          subtitle: Serveral language implementations to learn more about programming languages and types.
         body:
           - It includes an untyped lambda calculus, a language with simple type using small-step semantics, and a simply typed lambda calculus.
       # - header:
