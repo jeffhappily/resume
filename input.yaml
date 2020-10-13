@@ -6,13 +6,13 @@ contact:
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
 
 sections:
-  # - name: Education
-  #   children:
-  #     - header:
-  #         title: University of London
-  #         subtitle: B.S., Computer Science
-  #         extraHeader: Remote
-  #         extraSubheader: Oct 2020 – Present
+  - name: Education
+    children:
+      - header:
+          title: University of London
+          subtitle: 'B.S., Computer Science, Anticipated Graduation Year: 2024'
+          extraHeader: Remote
+          extraSubheader: Oct 2020 – Present
   - name: Experience
     children:
       - header:
@@ -60,9 +60,9 @@ sections:
           - Built a B2B system that includes credit payment and a monitoring dashbaord.
   - name: Project
     children:
-      - header:
-          title: <a href="https://github.com/jeffhappily/while">While language</a>
-          subtitle: A simple imperative programming language implemented in Haskell just to learn about how compiler works
+      # - header:
+      #     title: <a href="https://github.com/jeffhappily/while">While language</a>
+      #     subtitle: A simple imperative programming language implemented in Haskell just to learn about how compiler works
       - header:
           title: <a href="https://github.com/jeffhappily/wyah">WYAH</a>
           subtitle: Serveral language implementations to learn more about programming languages and types.
