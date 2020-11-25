@@ -6,13 +6,6 @@ contact:
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
 
 sections:
-  - name: Education
-    children:
-      - header:
-          title: University of London
-          subtitle: 'B.S., Computer Science, Anticipated Graduation Year: 2024'
-          extraHeader: Remote
-          extraSubheader: Oct 2020 – Present
   - name: Experience
     children:
       - header:
@@ -58,6 +51,13 @@ sections:
           - Implemented lab test system that allows doctor to issue lab test to patients.
           - Built a real time chat system using WebSocket.
           - Built a B2B system that includes credit payment and a monitoring dashbaord.
+  - name: Education
+    children:
+      - header:
+          title: University of London
+          subtitle: 'B.S., Computer Science, Anticipated Graduation Year: 2024'
+          extraHeader: Remote
+          extraSubheader: Oct 2020 – Present
   - name: Project
     children:
       # - header:
