@@ -37,7 +37,7 @@ newtype SectionBody =
 
 data SectionItem =
   SectionItem
-    { header :: SectionHeader
+    { header :: Maybe SectionHeader
     , body   :: Maybe SectionBody
     }
   deriving (Show, Generic)
@@ -69,17 +69,18 @@ sectionTemplate (Section {..}) = [shamlet|
   <h2>#{name}
   $forall (SectionItem header body) <- children
     <div .section-object>
-      <div .section-header>
-        <div .flex>
-          <h3 .section-title>#{preEscapedToHtml $ title header}
-          $maybe extraHeader' <- extraHeader header
-            <p .section-extra-header>#{extraHeader'}
-        
-        <div .flex>
-          <p .section-subtitle>#{subtitle header}
-          $maybe extraSubheader' <- extraSubheader header
-            <p .section-extra-subheader>#{extraSubheader'}
-        
+      $maybe SectionHeader title subtitle extraHeader extraSubheader <- header
+        <div .section-header>
+          <div .flex>
+            <h3 .section-title>#{preEscapedToHtml $ title}
+            $maybe extraHeader' <- extraHeader
+              <p .section-extra-header>#{extraHeader'}
+          
+          <div .flex>
+            <p .section-subtitle>#{subtitle}
+            $maybe extraSubheader' <- extraSubheader
+              <p .section-extra-subheader>#{extraSubheader'}
+          
       $maybe SectionBody body' <- body
         <ul .section-body>
           $forall b <- body'
