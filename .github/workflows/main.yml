@@ -29,11 +29,11 @@ jobs:
       - name: Generate PDF
         run: |
           make clean
-          make generate
+          make generate filename=jeff-${GITHUB_REF##*/}.pdf
 
       - name: Publish to s3 bucket
         run: |
-          [[ -n $(git status -s) ]] && aws s3 cp jeff.pdf s3://resume-jeffhappily --acl public-read
+          [[ -n $(git status -s) ]] && aws s3 cp jeff-${GITHUB_REF##*/}.pdf s3://resume-jeffhappily --acl public-read
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
