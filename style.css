@@ -7,7 +7,7 @@
 
 body {
   font-family: 'PT Serif', serif;
-  font-size: 15px;
+  font-size: 16px;
   color: rgb(50, 50, 50);
 }
 
@@ -102,26 +102,26 @@ table {
 
 .section-title {
   display: table-cell;
-  width: 50%;
+  width: 60%;
 }
 
 .section-extra-header {
   font-weight: bold;
   display: table-cell;
   text-align: right;
-  width: 50%;
+  width: 40%;
 }
 
 .section-subtitle {
   display: table-cell;
-  width: 50%;
+  width: 60%;
 }
 
 .section-extra-subheader {
   font-style: italic;
   color: rgb(72, 72, 72);;
   display: table-cell;
-  width: 50%;
+  width: 40%;
   text-align: right;
 }
 
