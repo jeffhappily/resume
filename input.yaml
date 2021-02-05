@@ -9,9 +9,8 @@ sections:
   - name: Brief Introduction
     children:
       - body:
-        - Self-taught software engineer, just started my BSc and looking to pursue my study to do research in PL
-        - Have a strong interest in Functional Programming, Mathematical Logic, and Type Theory.
-        - Learning Haskell & Coq and looking for an opportunity to use them at work.
+        - Self-taught software engineer, just started my BSc and looking to pursue my study to do research in PL.
+        - Have a strong interest in Functional Programming and PL.
   - name: Experience
     children:
       - header:
