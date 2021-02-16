@@ -9,8 +9,8 @@ sections:
   - name: Brief Introduction
     children:
       - body:
-        - Self-taught software engineer, just started my BSc and looking to pursue my study to do research in PL.
-        - Have a strong interest in Functional Programming and PL.
+        - Self-taught software engineer, just started my BSc and looking to pursue my study to do research in Programming Languages (PL).
+        - Have a strong interest in Functional Programming and PL (Type Theory, Formal Verification, Static Analysis).
   - name: Experience
     children:
       - header:
@@ -75,3 +75,7 @@ sections:
       - header:
           title: Web
           subtitle: Experienced with HTML, CSS, JavaScript, Ruby on Rails, React JS, MySQL & PostgreSQL
+      - header:	
+          title: DevOps	
+          subtitle: Experienced with CI, Docker, Terraform, Kubernetes, AWS services like EC2, S3, ELB, ASG etc	
+
