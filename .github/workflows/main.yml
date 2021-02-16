@@ -2,10 +2,7 @@ name: Generate PDF
 
 on:
   push:
-    paths:
-      - 'main.hs'
-      - 'input.yaml'
-      - 'style.css'
+    branches: master
 
 jobs:
   build:
