@@ -1,5 +1,5 @@
 {- stack script
-    --resolver lts-16.5
+    --resolver lts-17.9
     --install-ghc
     --ghc-options -Wall
     --package blaze-html
