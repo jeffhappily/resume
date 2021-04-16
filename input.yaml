@@ -17,7 +17,7 @@ sections:
           title: SEEK Asia
           subtitle: Software Engineer
           extraHeader: Kuala Lumpur, Malaysia
-          extraSubheader: July 2020 – April 2021
+          extraSubheader: Jul 2020 – Apr 2021
         body:
           - Proposed ways to improve code quality and helped implementing them, e.g., introducing Prettier & ESLint rules, introducing concrete type to replace "any" type, adding error catching mechanism to catch unhandled promise rejection
       - header:
