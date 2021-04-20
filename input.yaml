@@ -13,9 +13,9 @@ sections:
           subtitle: Software Engineer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Apr 2021 - Present
-        # body:
-        #   - Placeholder 1
-        #   - Placeholder 2
+        body:
+          - Placeholder 1
+          - Placeholder 2
       - header:
           title: SEEK Asia
           subtitle: Software Engineer
