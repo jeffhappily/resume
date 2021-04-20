@@ -106,7 +106,6 @@ table {
 }
 
 .section-extra-header {
-  font-weight: bold;
   display: table-cell;
   text-align: right;
   width: 40%;

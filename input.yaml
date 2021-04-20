@@ -6,13 +6,16 @@ contact:
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
 
 sections:
-  - name: Brief Introduction
-    children:
-      - body:
-        - Self-taught software engineer, just started my BSc and looking to pursue my study to do research in Programming Languages (PL).
-        - Have a strong interest in Functional Programming and PL (Type Theory, Formal Verification, Static Analysis).
   - name: Experience
     children:
+      - header:
+          title: Beam
+          subtitle: Software Engineer
+          extraHeader: Kuala Lumpur, Malaysia
+          extraSubheader: Apr 2021 - Present
+        # body:
+        #   - Placeholder 1
+        #   - Placeholder 2
       - header:
           title: SEEK Asia
           subtitle: Software Engineer
