@@ -59,13 +59,6 @@ sections:
         body:
           - Built a real time chat system using WebSocket.
           - Built a B2B system that includes credit payment and a monitoring dashbaord.
-  - name: Education
-    children:
-      - header:
-          title: Goldsmiths, University of London
-          subtitle: 'B.S., Computer Science, Anticipated Graduation Year: 2024'
-          extraHeader: Remote
-          extraSubheader: Oct 2020 – Present
   - name: Project
     children:
       - header:
