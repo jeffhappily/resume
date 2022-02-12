@@ -9,18 +9,18 @@ sections:
   - name: Brief Introduction
     children:
       - body:
-        - Self-taught software engineer, just started my BSc and looking to pursue my study to do research in Programming Languages (PL).
+        - Self-taught software engineer.
         - Have a strong interest in Functional Programming and PL (Type Theory, Formal Verification).
   - name: Experience
     children:
-      # - header:
-      #     title: Beam
-      #     subtitle: Software Engineer
-      #     extraHeader: Kuala Lumpur, Malaysia
-      #     extraSubheader: Apr 2021 - Present
-      #   body:
-      #     - Placeholder 1
-      #     - Placeholder 2
+      - header:
+          title: MLabs
+          subtitle: Haskell & Plutus Consultant
+          extraHeader: Remote
+          extraSubheader: June 2021 - Present
+        body:
+          - Worked on a collateral-backed <a href="https://www.liqwidx.org/">stablecoin project</a> on Cardano using Haskell and Plutus.
+          - Involved in the effort of writing specifications for the aforementioned project.
       - header:
           title: SEEK Asia
           subtitle: Software Engineer
@@ -70,7 +70,7 @@ sections:
     children:
       - header:
           title: Programming Languages
-          subtitle: Fluent in Ruby, Golang, TypeScript, Experienced with Java, Python, Kotlin, Haskell
+          subtitle: Fluent in Ruby, Golang, TypeScript, Experienced with Python, Haskell
       - header:
           title: Web
           subtitle: Experienced with HTML, CSS, JavaScript, Ruby on Rails, React JS, MySQL & PostgreSQL
