@@ -1,7 +1,7 @@
 name: Cheah Jer Fei
 contact:
   - Selangor, Malaysia
-  - '+60102314374'
+  - "+60102314374"
   - <a href="https://github.com/jeffhappily">https://github.com/jeffhappily</a>
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
 
@@ -9,15 +9,15 @@ sections:
   - name: Brief Introduction
     children:
       - body:
-        - Self-taught software engineer.
-        - Have a strong interest in Functional Programming and PL (Type Theory, Formal Verification).
+          - Self-taught software engineer.
+          - Have a strong interest in Functional Programming, Type Theory and Formal Verification.
   - name: Experience
     children:
       - header:
           title: MLabs
           subtitle: Haskell & Plutus Consultant
           extraHeader: Remote
-          extraSubheader: June 2021 - Present
+          extraSubheader: June 2021 - July 2022
         body:
           - Worked on a collateral-backed <a href="https://www.liqwidx.org/">stablecoin project</a> on Cardano using Haskell and Plutus.
           - Involved in the effort of writing specifications for the aforementioned project.
@@ -74,7 +74,6 @@ sections:
       - header:
           title: Web
           subtitle: Experienced with HTML, CSS, JavaScript, Ruby on Rails, React JS, MySQL & PostgreSQL
-      - header:	
-          title: DevOps	
-          subtitle: Experienced with CI, Docker, Terraform, Kubernetes, AWS services like EC2, S3, ELB, ASG etc	
-
+      - header:
+          title: DevOps
+          subtitle: Experienced with CI, Docker, Terraform, Kubernetes, AWS services like EC2, S3, ELB, ASG etc
