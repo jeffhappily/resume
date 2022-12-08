@@ -70,10 +70,10 @@ sections:
     children:
       - header:
           title: Programming Languages
-          subtitle: Fluent in Haskell, TypeScript, Ruby, Experienced with Python, Golang
+          subtitle: Haskell, TypeScript, Ruby, Kotlin, Python, Golang
       - header:
           title: Web
-          subtitle: Experienced with HTML, CSS, JavaScript, React JS, MySQL & PostgreSQL
+          subtitle: HTML, CSS, JavaScript, React JS, MySQL & PostgreSQL
       - header:
           title: DevOps
-          subtitle: Experienced with CI, Docker, Terraform, AWS services like EC2, S3 etc
+          subtitle: CI, Docker, Terraform, AWS services like EC2, S3
