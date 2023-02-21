@@ -6,20 +6,28 @@ contact:
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
 
 sections:
-  - name: Brief Introduction
-    children:
-      - body:
-          - Self-taught software engineer.
-          - Have a strong interest in Functional Programming, Type Theory and Formal Verification.
+  # - name: Brief Introduction
+  #   children:
+  #     - body:
+  #         - Self-taught software engineer.
+  #         - Have a strong interest in Functional Programming, Type Theory and Formal Verification.
   - name: Experience
     children:
+      - header:
+          title: ETukTuk
+          subtitle: Haskell & Plutus Consultant
+          extraHeader: Remote
+          extraSubheader: Sept 2022 - Current
+        body:
+          - Plan, design and develop the smart contract of a payment system on Cardano using Haskell and Plutus (Plutarch).
+          - Introduced transaction chaining into the code base to increase the throughput of the transaction submission.
       - header:
           title: MLabs
           subtitle: Haskell & Plutus Consultant
           extraHeader: Remote
           extraSubheader: June 2021 - July 2022
         body:
-          - Worked on a collateral-backed <a href="https://www.liqwidx.org/">stablecoin project</a> on Cardano using Haskell and Plutus.
+          - Worked on a collateral-backed <a href="https://xplorerdao.com/">stablecoin project</a> on Cardano using Haskell and Plutus (Plutarch).
           - Involved in the effort of writing specifications for the aforementioned project.
       - header:
           title: SEEK Asia
@@ -27,7 +35,7 @@ sections:
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Jul 2020 – Apr 2021
         body:
-          - Proposed ways to improve code quality and helped implementing them, e.g., introducing Prettier & ESLint rules, introducing concrete type to replace "any" type, adding error catching mechanism to catch unhandled promise rejection
+          - Proposed ways to improve code quality and helped implementing them, e.g., introducing Prettier & ESLint rules, replacing "any" type with concrete type, adding global error catching mechanism.
       - header:
           title: FP Complete
           subtitle: System Administrator
@@ -70,10 +78,10 @@ sections:
     children:
       - header:
           title: Programming Languages
-          subtitle: Fluent in Haskell, TypeScript, Ruby, Experienced with Python, Golang
+          subtitle: Haskell, TypeScript, JavaScript, PureScripit, Ruby, Python, Golang, Kotlin
       - header:
           title: Web
-          subtitle: Experienced with HTML, CSS, JavaScript, React JS, MySQL & PostgreSQL
+          subtitle: HTML, CSS, JavaScript, React, MySQL, PostgreSQL, Redis, NodeJS
       - header:
           title: DevOps
-          subtitle: Experienced with CI, Docker, Terraform, AWS services like EC2, S3 etc
+          subtitle: CI, Docker, Terraform, AWS services like EC2, S3 etc
