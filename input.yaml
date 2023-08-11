@@ -17,7 +17,7 @@ sections:
           title: ETukTuk
           subtitle: Haskell & Plutus Consultant
           extraHeader: Remote
-          extraSubheader: Sept 2022 - Current
+          extraSubheader: Sept 2022 - July 2023
         body:
           - Designed and developed the smart contract of a payment system on Cardano using Haskell and Plutus (Plutarch), including token mint, distribution, locking & vesting, rewards, etc.
           - Built a dashboard and off-chain code to interact with the smart contracts.
