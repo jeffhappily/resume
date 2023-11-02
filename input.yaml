@@ -81,7 +81,7 @@ sections:
     children:
       - header:
           title: Programming Languages
-          subtitle: Haskell, TypeScript, JavaScript, PureScripit, Ruby, Kotlin, Python, Golang
+          subtitle: Haskell, TypeScript, JavaScript, PureScripit, Ruby, Kotlin, Java, Python, Golang
       - header:
           title: Web
           subtitle: HTML, CSS, JavaScript, React, MySQL, PostgreSQL, Redis, NodeJS
