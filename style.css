@@ -24,7 +24,7 @@ h1 {
   margin-bottom: 12px;
   font-size: 36px;
   line-height: 32px;
-  font-weight: bold;
+  font-weight: normal;
   color: rgb(56, 115, 179);
 }
 
@@ -96,7 +96,7 @@ table {
 
 /* Will try to generalize everything with this section */
 .section-object {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .section-header {

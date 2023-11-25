@@ -1,4 +1,5 @@
-name: Cheah Jer Fei
+firstName: Jer Fei
+lastName: Cheah
 contact:
   - Selangor, Malaysia
   - "+60102314374"
@@ -19,72 +20,64 @@ sections:
           extraHeader: Remote
           extraSubheader: Sept 2022 - July 2023
         body:
-          - Designed and developed the smart contract of a payment system on Cardano using Haskell and Plutus (Plutarch), including token mint, distribution, locking & vesting, rewards, etc.
-          - Built a dashboard and off-chain code to interact with the smart contracts.
-          - Introduced transaction chaining into the code base to increase the throughput of the transaction submission.
+          - Led the design and development of the payment system smart contract on Cardano, utilizing Haskell and Plutus (Plutarch), to address specific business needs in the blockchain space.
+          - Implemented transaction chaining to improve the throughput of the transaction submission, reflecting a proactive approach to performance optimization.
       - header:
           title: MLabs
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
           extraSubheader: June 2021 - July 2022
         body:
-          - Worked on a collateral-backed <a href="https://xplorerdao.com/">stablecoin project</a> on Cardano using Haskell and Plutus.
-          - Rewrote the project in Plutarch for smaller script size.
-          - Involved in the effort to implement and validate on the idea of <a href="https://github.com/Plutonomicon/plutonomicon/blob/main/transaction-token-pattern.md">Transaction Token Pattern</a>.
-          - Collaborated with the team in writing specifications for the aforementioned project.
+          - Involved in developing smart contracts for a <a href="https://xplorerdao.com/">stablecoin project</a> on the Cardano blockchain, focusing on secure and efficient code in Haskell and Plutus.
+          - Contributed to the team's transition to Plutarch and collaborated in the Transaction Token Pattern, focusing on creating a more efficient transaction validation process.
       - header:
           title: SEEK Asia
           subtitle: Software Engineer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Jul 2020 – Apr 2021
         body:
-          - Proposed ways to improve code quality and helped implementing them, e.g., introducing Prettier & ESLint rules, replacing "any" type with concrete type, adding global error catching mechanism.
+          - Instrumental in the codebase transition from PHP to Node.js and TypeScript, aligning with modern web development practices.
+          - Enhanced code quality and application reliability by integrating Prettier, ESLint, and AJV with TypeScript, focusing on robust error handling, data validation, and type safety.
       - header:
           title: FP Complete
           subtitle: System Administrator
           extraHeader: Remote
           extraSubheader: Oct 2019 – Mar 2020
         body:
-          - Contributed to serveral open source Haskell project including <a href="https://github.com/commercialhaskell/stack/commits?author=jeffhappily" target="_blank">stack</a>, <a href="https://github.com/commercialhaskell/stackage/commits?author=jeffhappily" target="_blank">stackage</a>, <a href="https://github.com/fpco/cache-s3/commit/6f577662368ea83d20465246aa5be51e6b61900d" target="_blank">cache-s3</a>.
-          - Set up a static site to host the internal documentation via Kubernetes.
+          - Contributed to key open-source Haskell projects, enhancing community-driven software solutions.
+          - Automated Docker build processes for the Stackage project, improving deployment workflows and consistency.
+          - Assisted in updating the Stack project to Cabal 3, focusing on enhancing build processes and maintaining version compatibility.
       - header:
           title: Grab
           subtitle: Software Engineer - Full Stack
           extraHeader: Selangor, Malaysia
           extraSubheader: Nov 2018 – Sep 2019
         body:
-          - Worked on serveral safety and fraud related features like Share My Ride and Trip Monitoring using Golang and React.
+          - Developed safety and fraud related features like Share My Ride and Trip Monitoring using Golang and React, addressing critical operational needs.
       - header:
           title: Revenue Monster
           subtitle: Associate Full Stack Developer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Mar 2018 – Oct 2018
         body:
-          - Built a dashboard UI using React for our partner to view and download transactions report.
-          - Built a movie purchasing platform UI using React.
+          - Built a user-friendly dashboard UI using React, facilitating partners in viewing and downloading transaction reports.
+          - Created a movie purchasing platform UI, focusing on intuitive and efficient user interaction designs.
       - header:
           title: Teleme
           subtitle: Ruby on Rails developer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Nov 2016 - Feb 2018
         body:
-          - Built a real time chat system using WebSocket (PubNub).
-          - Built a B2B system that includes credit payment and a monitoring dashbaord.
+          - Developed a Ruby on Rails-based real-time chat system using WebSocket (PubNub), and built a robust B2B platform including credit payment and monitoring dashboard.
   - name: Project
     children:
       - header:
           title: <a href="https://github.com/jeffhappily/wyah">WYAH</a>
-          subtitle: Serveral language implementations to learn more about programming languages and types.
+          subtitle: Experimental implementation of the book "Write You a Haskell"
         body:
-          - It includes an untyped lambda calculus, a language with simple type using small-step semantics, and a simply typed lambda calculus.
+          - Developed multiple interpreters to deepen understanding of language design and type systems.
+          - Implemented features include untyped lambda calculus, simple-typed language semantics, and simply typed lambda calculus.
   - name: Skills
     children:
       - header:
-          title: Programming Languages
-          subtitle: Haskell, TypeScript, JavaScript, PureScripit, Ruby, Kotlin, Java, Python, Golang
-      - header:
-          title: Web
-          subtitle: HTML, CSS, JavaScript, React, MySQL, PostgreSQL, Redis, NodeJS
-      - header:
-          title: DevOps
-          subtitle: CI, Docker, Terraform, AWS services like EC2, S3 etc
+          subtitle: Haskell, TypeScript, JavaScript, Python, PureScript, Ruby, Kotlin, Java, Rust, Golang, HTML, CSS, JavaScript, React, MySQL, PostgreSQL, Redis, NodeJS, Ruby on Rails, CI, Docker, Terraform, AWS, EC2, S3
