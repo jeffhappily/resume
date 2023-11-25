@@ -94,8 +94,7 @@ template css (Resume{..}) d =
 $doctype 5
 <html>
   <head>
-    <title>#{firstName}
-      <b>#{lastName}
+    <title>#{firstName} #{lastName}
     <meta charset="utf-8">
     <style>#{preEscapedToHtml css}
 
