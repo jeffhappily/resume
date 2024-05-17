@@ -88,4 +88,4 @@ sections:
   - name: Skills
     children:
       - header:
-          subtitle: Haskell, TypeScript, JavaScript, Python, PureScript, Ruby, Kotlin, Scala, Java, Rust, Golang, HTML, CSS, JavaScript, React, MySQL, PostgreSQL, Redis, NodeJS, Ruby on Rails, CI, Docker, Terraform, AWS, EC2, S3
+          subtitle: Haskell, TypeScript, JavaScript, Python, PureScript, Ruby, Kotlin, Scala, Java, Rust, Golang, HTML, CSS, React, MySQL, PostgreSQL, Redis, NodeJS, Ruby on Rails, CI, Docker, Terraform, AWS, EC2, S3
