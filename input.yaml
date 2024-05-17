@@ -15,6 +15,14 @@ sections:
   - name: Experience
     children:
       - header:
+          title: MLabs
+          subtitle: Software Engineer - Haskell & Plutus
+          extraHeader: Remote
+          extraSubheader: December 2023 - Present
+        body:
+          - Currently working on a stablecoin project on the Cardano blockchain, utilizing Haskell, Plutus, and Plutarch to develop secure and efficient smart contracts.
+          - Contributing to the <a href="https://cardano.ideascale.com/c/idea/121461">Yielding Transaction Pattern (YTxP)</a> library to improve transaction flow design for Cardano smart contracts, making them more composable and reducing protocol update surface areas.
+      - header:
           title: ETukTuk
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
@@ -69,15 +77,15 @@ sections:
           extraSubheader: Nov 2016 - Feb 2018
         body:
           - Developed a Ruby on Rails-based real-time chat system using WebSocket (PubNub), and built a robust B2B platform including credit payment and monitoring dashboard.
-  - name: Project
-    children:
-      - header:
-          title: <a href="https://github.com/jeffhappily/wyah">WYAH</a>
-          subtitle: Experimental implementation of the book "Write You a Haskell"
-        body:
-          - Developed multiple interpreters to deepen understanding of language design and type systems.
-          - Implemented features include untyped lambda calculus, simple-typed language semantics, and simply typed lambda calculus.
+  # - name: Project
+  #   children:
+  #     - header:
+  #         title: <a href="https://github.com/jeffhappily/wyah">WYAH</a>
+  #         subtitle: Experimental implementation of the book "Write You a Haskell"
+  #       body:
+  #         - Developed multiple interpreters to deepen understanding of language design and type systems.
+  #         - Implemented features include untyped lambda calculus, simple-typed language semantics, and simply typed lambda calculus.
   - name: Skills
     children:
       - header:
-          subtitle: Haskell, TypeScript, JavaScript, Python, PureScript, Ruby, Kotlin, Java, Rust, Golang, HTML, CSS, JavaScript, React, MySQL, PostgreSQL, Redis, NodeJS, Ruby on Rails, CI, Docker, Terraform, AWS, EC2, S3
+          subtitle: Haskell, TypeScript, JavaScript, Python, PureScript, Ruby, Kotlin, Scala, Java, Rust, Golang, HTML, CSS, JavaScript, React, MySQL, PostgreSQL, Redis, NodeJS, Ruby on Rails, CI, Docker, Terraform, AWS, EC2, S3
