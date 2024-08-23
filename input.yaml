@@ -7,12 +7,13 @@ contact:
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
 
 sections:
-  # - name: Brief Introduction
-  #   children:
-  #     - body:
-  #         - Self-taught software engineer.
-  #         - Have a strong interest in Functional Programming, Type Theory and Formal Verification.
-  - name: Experience
+  - name: Brief Introduction
+    children:
+      - body:
+          - Experienced software engineer specializing in functional programming, with a focus on Haskell and smart contract development.
+          - Keen interest in type theory and formal methods, with self-taught knowledge of Coq and exposure to Lean at work.
+          - Enthusiastic about deepening knowledge in formal verification techniques and their application in creating secure software systems.
+  - name: Relevant Experience
     children:
       - header:
           title: MLabs
@@ -55,28 +56,28 @@ sections:
           - Contributed to key open-source Haskell projects, enhancing community-driven software solutions.
           - Automated Docker build processes for the Stackage project, improving deployment workflows and consistency.
           - Assisted in updating the Stack project to Cabal 3, focusing on enhancing build processes and maintaining version compatibility.
-      - header:
-          title: Grab
-          subtitle: Software Engineer - Full Stack
-          extraHeader: Selangor, Malaysia
-          extraSubheader: Nov 2018 – Sep 2019
-        body:
-          - Developed safety and fraud related features like Share My Ride and Trip Monitoring using Golang and React, addressing critical operational needs.
-      - header:
-          title: Revenue Monster
-          subtitle: Associate Full Stack Developer
-          extraHeader: Kuala Lumpur, Malaysia
-          extraSubheader: Mar 2018 – Oct 2018
-        body:
-          - Built a user-friendly dashboard UI using React, facilitating partners in viewing and downloading transaction reports.
-          - Created a movie purchasing platform UI, focusing on intuitive and efficient user interaction designs.
-      - header:
-          title: Teleme
-          subtitle: Ruby on Rails developer
-          extraHeader: Kuala Lumpur, Malaysia
-          extraSubheader: Nov 2016 - Feb 2018
-        body:
-          - Developed a Ruby on Rails-based real-time chat system using WebSocket (PubNub), and built a robust B2B platform including credit payment and monitoring dashboard.
+      # - header:
+      #     title: Grab
+      #     subtitle: Software Engineer - Full Stack
+      #     extraHeader: Selangor, Malaysia
+      #     extraSubheader: Nov 2018 – Sep 2019
+      #   body:
+      #     - Developed safety and fraud related features like Share My Ride and Trip Monitoring using Golang and React, addressing critical operational needs.
+      # - header:
+      #     title: Revenue Monster
+      #     subtitle: Associate Full Stack Developer
+      #     extraHeader: Kuala Lumpur, Malaysia
+      #     extraSubheader: Mar 2018 – Oct 2018
+      #   body:
+      #     - Built a user-friendly dashboard UI using React, facilitating partners in viewing and downloading transaction reports.
+      #     - Created a movie purchasing platform UI, focusing on intuitive and efficient user interaction designs.
+      # - header:
+      #     title: Teleme
+      #     subtitle: Ruby on Rails developer
+      #     extraHeader: Kuala Lumpur, Malaysia
+      #     extraSubheader: Nov 2016 - Feb 2018
+      #   body:
+      #     - Developed a Ruby on Rails-based real-time chat system using WebSocket (PubNub), and built a robust B2B platform including credit payment and monitoring dashboard.
   # - name: Project
   #   children:
   #     - header:
@@ -88,4 +89,4 @@ sections:
   - name: Skills
     children:
       - header:
-          subtitle: Haskell, TypeScript, JavaScript, Python, PureScript, Ruby, Kotlin, Scala, Java, Rust, Golang, HTML, CSS, React, MySQL, PostgreSQL, Redis, NodeJS, Ruby on Rails, CI, Docker, Terraform, AWS, EC2, S3
+          subtitle: Haskell, TypeScript, JavaScript, Python, PureScript, Ruby, Kotlin, Scala, Java, Rust, Coq, Golang, HTML, CSS, React, MySQL, PostgreSQL, Redis, NodeJS, Ruby on Rails, CI, Docker, Terraform, AWS, EC2, S3
