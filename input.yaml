@@ -7,85 +7,87 @@ contact:
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
 
 sections:
-  # - name: Brief Introduction
-  #   children:
-  #     - body:
-  #         - Self-taught software engineer.
-  #         - Have a strong interest in Functional Programming, Type Theory and Formal Verification.
   - name: Experience
     children:
       - header:
           title: MLabs
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
-          extraSubheader: December 2023 - Present
+          extraSubheader: Dec 2023 - Nov 2024
         body:
-          - Currently working on a stablecoin project on the Cardano blockchain, utilizing Haskell, Plutus, and Plutarch to develop secure and efficient smart contracts.
-          - Contributing to the <a href="https://cardano.ideascale.com/c/idea/121461">Yielding Transaction Pattern (YTxP)</a> library to improve transaction flow design for Cardano smart contracts, making them more composable and reducing protocol update surface areas.
+          - Developing smart contracts for a stablecoin project on Cardano using Haskell, Plutus, and Plutarch
+          - Contributing to the  <a href="https://cardano.ideascale.com/c/idea/121461">Yielding Transaction Pattern (YTxP)</a> library to improve smart contract composability and validation in Cardano smart contracts
+
       - header:
           title: ETukTuk
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
           extraSubheader: Sept 2022 - July 2023
         body:
-          - Led the design and development of the payment system smart contract on Cardano, utilizing Haskell and Plutus (Plutarch), to address specific business needs in the blockchain space.
-          - Implemented transaction chaining to improve the throughput of the transaction submission, reflecting a proactive approach to performance optimization.
+          - Designed and implemented token and staking smart contracts on Cardano using Haskell and Plutus (Plutarch)
+          - Improved transaction throughput through implementation of transaction chaining patterns
+          - Worked on protocol design and implementation for token-based financial flows
+
       - header:
           title: MLabs
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
           extraSubheader: June 2021 - July 2022
         body:
-          - Involved in developing smart contracts for a <a href="https://xplorerdao.com/">stablecoin project</a> on the Cardano blockchain, focusing on secure and efficient code in Haskell and Plutus.
-          - Contributed to the team's transition to Plutarch and collaborated in the Transaction Token Pattern, focusing on creating a more efficient transaction validation process.
+          - Developed smart contracts for a stablecoin project on Cardano blockchain using Haskell and Plutus
+          - Participated in the team's transition to Plutarch, focusing on performance optimization
+          - Collaborated on implementing transaction validation patterns for improved security and efficiency
+
       - header:
           title: SEEK Asia
           subtitle: Software Engineer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Jul 2020 – Apr 2021
         body:
-          - Instrumental in the codebase transition from PHP to Node.js and TypeScript, aligning with modern web development practices.
-          - Enhanced code quality and application reliability by integrating Prettier, ESLint, and AJV with TypeScript, focusing on robust error handling, data validation, and type safety.
+          - Led codebase migration from PHP to Node.js and TypeScript, implementing robust type safety and validation systems
+          - Enhanced code quality through integration of static analysis tools and strict typing
+          - Designed and implemented data validation patterns using TypeScript and JSON Schema
+
       - header:
           title: FP Complete
           subtitle: System Administrator
           extraHeader: Remote
           extraSubheader: Oct 2019 – Mar 2020
         body:
-          - Contributed to key open-source Haskell projects, enhancing community-driven software solutions.
-          - Automated Docker build processes for the Stackage project, improving deployment workflows and consistency.
-          - Assisted in updating the Stack project to Cabal 3, focusing on enhancing build processes and maintaining version compatibility.
+          - Contributed to open-source Haskell projects including Stackage and Stack
+          - Automated Docker build processes for the Stackage project
+          - Assisted in updating the Stack project to Cabal 3, maintaining build system compatibility
+
       - header:
           title: Grab
           subtitle: Software Engineer - Full Stack
           extraHeader: Selangor, Malaysia
           extraSubheader: Nov 2018 – Sep 2019
         body:
-          - Developed safety and fraud related features like Share My Ride and Trip Monitoring using Golang and React, addressing critical operational needs.
+          - Developed safety-critical features using Golang and React, focusing on secure data handling and validation
+          - Implemented real-time monitoring systems requiring precise state management
+          - Worked on fraud prevention features requiring complex business logic implementation
+
       - header:
           title: Revenue Monster
           subtitle: Associate Full Stack Developer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Mar 2018 – Oct 2018
         body:
-          - Built a user-friendly dashboard UI using React, facilitating partners in viewing and downloading transaction reports.
-          - Created a movie purchasing platform UI, focusing on intuitive and efficient user interaction designs.
+          - Built transaction reporting systems requiring precise data handling and validation
+          - Designed and implemented user interfaces for financial data visualization
+          - Developed secure payment integration features
+
       - header:
           title: Teleme
           subtitle: Ruby on Rails developer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Nov 2016 - Feb 2018
         body:
-          - Developed a Ruby on Rails-based real-time chat system using WebSocket (PubNub), and built a robust B2B platform including credit payment and monitoring dashboard.
-  # - name: Project
-  #   children:
-  #     - header:
-  #         title: <a href="https://github.com/jeffhappily/wyah">WYAH</a>
-  #         subtitle: Experimental implementation of the book "Write You a Haskell"
-  #       body:
-  #         - Developed multiple interpreters to deepen understanding of language design and type systems.
-  #         - Implemented features include untyped lambda calculus, simple-typed language semantics, and simply typed lambda calculus.
+          - Developed real-time communication systems using WebSocket technology
+          - Implemented secure payment processing features for B2B platform
+          - Built monitoring dashboards for business operation
   - name: Skills
     children:
       - header:
-          subtitle: Haskell, TypeScript, JavaScript, Python, PureScript, Ruby, Kotlin, Scala, Java, Rust, Golang, HTML, CSS, React, MySQL, PostgreSQL, Redis, NodeJS, Ruby on Rails, CI, Docker, Terraform, AWS, EC2, S3
+          subtitle: Haskell, Plutus, Plutarch, Smart Contract Development, PureScript, TypeScript, Python, Golang, Rust (basic), Coq (basic), Lean (basic), HTML, CSS, React, MySQL, PostgreSQL, Redis, NodeJS, Docker, AWS, Git
