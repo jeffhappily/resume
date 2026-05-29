@@ -3,91 +3,98 @@ lastName: Cheah
 contact:
   - Selangor, Malaysia
   - "+60102314374"
-  - <a href="https://github.com/jeffhappily">https://github.com/jeffhappily</a>
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
+  - <a href="https://github.com/jeffhappily">github.com/jeffhappily</a>
 
 sections:
+  - name: Summary
+    children:
+      - header:
+          subtitle: Senior software engineer with experience building fintech, Web3, and full-stack applications across frontend systems, backend services, and blockchain infrastructure. Strong background in TypeScript, React, Rust, Haskell, Node.js, and PostgreSQL.
+
   - name: Experience
     children:
+      - header:
+          title: FP Block
+          subtitle: Software Engineer - Full Stack & Web3
+          extraHeader: Remote
+          extraSubheader: Dec 2024 - May 2026
+        body:
+          - Developed full-stack Web3 presale platform using TypeScript, React, Rust, and PostgreSQL, including wallet integration, ERC-4337 smart wallets, and gas abstraction flows
+          - Developed KYC and onboarding workflows integrating SumSub, Sardine, and fiat onramp providers for identity verification and payment flows
+          - Debugged complex wallet, transaction, and cross-platform edge cases across desktop and mobile environments
+
       - header:
           title: MLabs
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
           extraSubheader: Dec 2023 - Nov 2024
         body:
-          - Developing smart contracts for a stablecoin project on Cardano using Haskell, Plutus, and Plutarch
-          - Contributing to the  <a href="https://cardano.ideascale.com/c/idea/121461">Yielding Transaction Pattern (YTxP)</a> library to improve smart contract composability and validation in Cardano smart contracts
+          - Built and optimized smart contract infrastructure for a Cardano-based stablecoin system using Haskell, Plutus, and Plutarch
+          - Contributed to the <a href="https://cardano.ideascale.com/c/idea/121461">Yielding Transaction Pattern (YTxP)</a> library to improve transaction composability and validation efficiency
 
       - header:
           title: ETukTuk
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
-          extraSubheader: Sept 2022 - July 2023
+          extraSubheader: Sep 2022 - Jul 2023
         body:
-          - Designed and implemented token and staking smart contracts on Cardano using Haskell and Plutus (Plutarch)
-          - Improved transaction throughput through implementation of transaction chaining patterns
-          - Worked on protocol design and implementation for token-based financial flows
+          - Designed and implemented token and staking smart contracts on Cardano using Haskell and Plutarch
+          - Improved transaction throughput and scalability through transaction chaining mechanisms
 
       - header:
           title: MLabs
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
-          extraSubheader: June 2021 - July 2022
+          extraSubheader: Jun 2021 - Jul 2022
         body:
-          - Developed smart contracts for a stablecoin project on Cardano blockchain using Haskell and Plutus
-          - Participated in the team's transition to Plutarch, focusing on performance optimization
-          - Collaborated on implementing transaction validation patterns for improved security and efficiency
+          - Developed smart contracts and transaction validation logic for Cardano-based financial applications using Haskell and Plutus
+          - Migrated validation logic toward Plutarch with focus on performance optimization and maintainability
 
       - header:
           title: SEEK Asia
           subtitle: Software Engineer
           extraHeader: Kuala Lumpur, Malaysia
-          extraSubheader: Jul 2020 – Apr 2021
+          extraSubheader: Jul 2020 - Apr 2021
         body:
-          - Led codebase migration from PHP to Node.js and TypeScript, implementing robust type safety and validation systems
-          - Enhanced code quality through integration of static analysis tools and strict typing
-          - Designed and implemented data validation patterns using TypeScript and JSON Schema
+          - Led migration of legacy PHP services to Node.js and TypeScript, improving maintainability and type safety
+          - Designed validation systems using TypeScript and JSON Schema for safer data processing and API workflows
 
       - header:
           title: FP Complete
           subtitle: System Administrator
           extraHeader: Remote
-          extraSubheader: Oct 2019 – Mar 2020
+          extraSubheader: Oct 2019 - Mar 2020
         body:
           - Contributed to open-source Haskell projects including Stackage and Stack
-          - Automated Docker build processes for the Stackage project
-          - Assisted in updating the Stack project to Cabal 3, maintaining build system compatibility
+          - Automated Docker build processes and assisted in updating Stack to Cabal 3
 
       - header:
           title: Grab
           subtitle: Software Engineer - Full Stack
           extraHeader: Selangor, Malaysia
-          extraSubheader: Nov 2018 – Sep 2019
+          extraSubheader: Nov 2018 - Sep 2019
         body:
-          - Developed safety-critical features using Golang and React, focusing on secure data handling and validation
-          - Implemented real-time monitoring systems requiring precise state management
-          - Worked on fraud prevention features requiring complex business logic implementation
+          - Developed safety-critical backend and frontend features using Golang and React
+          - Worked on real-time monitoring, fraud prevention, validation systems, and secure data flows
 
       - header:
           title: Revenue Monster
           subtitle: Associate Full Stack Developer
           extraHeader: Kuala Lumpur, Malaysia
-          extraSubheader: Mar 2018 – Oct 2018
+          extraSubheader: Mar 2018 - Oct 2018
         body:
-          - Built transaction reporting systems requiring precise data handling and validation
-          - Designed and implemented user interfaces for financial data visualization
-          - Developed secure payment integration features
+          - Built transaction reporting, payment integration, and financial data visualization features
 
       - header:
           title: Teleme
-          subtitle: Ruby on Rails developer
+          subtitle: Ruby on Rails Developer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Nov 2016 - Feb 2018
         body:
-          - Developed real-time communication systems using WebSocket technology
-          - Implemented secure payment processing features for B2B platform
-          - Built monitoring dashboards for business operation
+          - Built real-time communication, payment processing, and monitoring features for a B2B healthcare platform
+
   - name: Skills
     children:
       - header:
-          subtitle: Haskell, Plutus, Plutarch, Smart Contract Development, PureScript, TypeScript, Python, Golang, Rust (basic), Coq (basic), Lean (basic), HTML, CSS, React, MySQL, PostgreSQL, Redis, NodeJS, Docker, AWS, Git
+          subtitle: "TypeScript, React, Node.js, PostgreSQL, GraphQL, Haskell, Rust, Golang, Ruby on Rails, Python, Docker, AWS, Redis, Smart Contracts, Plutus, Plutarch"
