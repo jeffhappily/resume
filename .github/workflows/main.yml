@@ -13,7 +13,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install wkhtmltopdf -y
+          sudo apt-get update && sudo apt-get install fontconfig poppler-utils wkhtmltopdf -y
+
+      - name: Verify fonts
+        run: |
+          XDG_DATA_HOME="$PWD" fc-match "PT Serif" | grep PTSerif
 
       - name: Cache stack folder
         id: stack
@@ -26,6 +30,7 @@ jobs:
         run: |
           make clean
           make generate filename=jeff-cheah.pdf
+          pdffonts jeff-cheah.pdf | grep PTSerif
 
       - name: Publish to s3 bucket
         run: |
