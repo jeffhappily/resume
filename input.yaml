@@ -7,87 +7,127 @@ contact:
   - <a href="mailto:goodboy96@live.com.my">goodboy96@live.com.my</a>
 
 sections:
+  - name: Summary
+    children:
+      - header:
+          subtitle: Senior software engineer with experience building fintech, web3, and full-stack systems across frontend applications, backend services, smart contracts, and financial workflows. Experienced in remote startup environments, payment/KYC/onramp integrations, blockchain infrastructure, and production product development using TypeScript, React, Haskell, Go, Node.js, and PostgreSQL. Strong focus on system design, correctness, performance optimization, and shipping robust software independently.
+
   - name: Experience
     children:
+      - header:
+          title: FP Block
+          subtitle: Software Engineer - Full Stack & Web3
+          extraHeader: Remote
+          extraSubheader: Dec 2024 - May 2026
+        body:
+          - Built and maintained frontend and backend features for a web3 presale platform using TypeScript, React, Wagmi, viem, and wallet integration tooling
+          - Implemented wallet connection, transaction signing, purchase flows, and smart wallet support across embedded wallets and external wallets
+          - Worked on ERC-4337 gas abstraction flows, integrating paymaster and bundler infrastructure to support token-based gas payment flows
+          - Integrated KYC and fiat onramp workflows involving SumSub, Meld, wallet address handling, backend status synchronization, and frontend user flows
+          - Debugged production-style wallet, smart account, and transaction edge cases across desktop and mobile environments
+          - Collaborated with product, QA, backend, and DevOps stakeholders in a fully remote environment to ship and troubleshoot user-facing financial flows
+
       - header:
           title: MLabs
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
           extraSubheader: Dec 2023 - Nov 2024
         body:
-          - Developing smart contracts for a stablecoin project on Cardano using Haskell, Plutus, and Plutarch
-          - Contributing to the  <a href="https://cardano.ideascale.com/c/idea/121461">Yielding Transaction Pattern (YTxP)</a> library to improve smart contract composability and validation in Cardano smart contracts
+          - Built and optimized smart contract infrastructure for a Cardano-based stablecoin system using Haskell, Plutus, and Plutarch
+          - Contributed to the <a href="https://cardano.ideascale.com/c/idea/121461">Yielding Transaction Pattern (YTxP)</a> library to improve transaction composability and validation efficiency
+          - Worked on protocol-level financial flows, transaction validation logic, and performance optimization for on-chain operations
+          - Collaborated across smart contract, backend, and integration workflows in a fully remote engineering environment
 
       - header:
           title: ETukTuk
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
-          extraSubheader: Sept 2022 - July 2023
+          extraSubheader: Sep 2022 - Jul 2023
         body:
-          - Designed and implemented token and staking smart contracts on Cardano using Haskell and Plutus (Plutarch)
-          - Improved transaction throughput through implementation of transaction chaining patterns
-          - Worked on protocol design and implementation for token-based financial flows
+          - Designed and implemented token and staking smart contracts on Cardano using Haskell and Plutarch
+          - Improved transaction throughput and scalability through transaction chaining mechanisms
+          - Worked on protocol design and implementation for token-based financial systems
+          - Focused on smart contract correctness, validation efficiency, and composable transaction flows
 
       - header:
           title: MLabs
           subtitle: Software Engineer - Haskell & Plutus
           extraHeader: Remote
-          extraSubheader: June 2021 - July 2022
+          extraSubheader: Jun 2021 - Jul 2022
         body:
-          - Developed smart contracts for a stablecoin project on Cardano blockchain using Haskell and Plutus
-          - Participated in the team's transition to Plutarch, focusing on performance optimization
-          - Collaborated on implementing transaction validation patterns for improved security and efficiency
+          - Developed smart contracts and transaction validation logic for Cardano-based financial applications using Haskell and Plutus
+          - Participated in migration efforts toward Plutarch with focus on performance optimization and developer ergonomics
+          - Implemented validation and composability patterns to improve security and maintainability of smart contract systems
+          - Collaborated with distributed engineering teams on protocol implementation and testing
 
       - header:
           title: SEEK Asia
           subtitle: Software Engineer
           extraHeader: Kuala Lumpur, Malaysia
-          extraSubheader: Jul 2020 – Apr 2021
+          extraSubheader: Jul 2020 - Apr 2021
         body:
-          - Led codebase migration from PHP to Node.js and TypeScript, implementing robust type safety and validation systems
-          - Enhanced code quality through integration of static analysis tools and strict typing
-          - Designed and implemented data validation patterns using TypeScript and JSON Schema
+          - Led migration of legacy PHP services to Node.js and TypeScript, improving maintainability and type safety
+          - Designed validation systems using TypeScript and JSON Schema for safer data processing and API workflows
+          - Improved engineering quality through adoption of static analysis tools and stricter typing practices
+          - Worked on backend systems and internal platform tooling in a large-scale product engineering environment
 
       - header:
           title: FP Complete
           subtitle: System Administrator
           extraHeader: Remote
-          extraSubheader: Oct 2019 – Mar 2020
+          extraSubheader: Oct 2019 - Mar 2020
         body:
           - Contributed to open-source Haskell projects including Stackage and Stack
           - Automated Docker build processes for the Stackage project
-          - Assisted in updating the Stack project to Cabal 3, maintaining build system compatibility
+          - Assisted in updating the Stack project to Cabal 3 while maintaining build system compatibility
+          - Worked with distributed build tooling, package infrastructure, and open-source maintenance workflows
 
       - header:
           title: Grab
           subtitle: Software Engineer - Full Stack
           extraHeader: Selangor, Malaysia
-          extraSubheader: Nov 2018 – Sep 2019
+          extraSubheader: Nov 2018 - Sep 2019
         body:
-          - Developed safety-critical features using Golang and React, focusing on secure data handling and validation
-          - Implemented real-time monitoring systems requiring precise state management
-          - Worked on fraud prevention features requiring complex business logic implementation
+          - Developed safety-critical backend and frontend features using Golang and React
+          - Built real-time monitoring and operational tooling requiring reliable state management and event handling
+          - Worked on fraud prevention and validation systems involving complex business logic and secure data flows
+          - Collaborated within a high-scale product engineering environment serving large user volumes
 
       - header:
           title: Revenue Monster
           subtitle: Associate Full Stack Developer
           extraHeader: Kuala Lumpur, Malaysia
-          extraSubheader: Mar 2018 – Oct 2018
+          extraSubheader: Mar 2018 - Oct 2018
         body:
-          - Built transaction reporting systems requiring precise data handling and validation
+          - Built transaction reporting systems requiring precise financial data handling and validation
           - Designed and implemented user interfaces for financial data visualization
-          - Developed secure payment integration features
+          - Developed secure payment integration features for merchant-facing products
+          - Worked across frontend, backend, and database layers in a fintech product environment
 
       - header:
           title: Teleme
-          subtitle: Ruby on Rails developer
+          subtitle: Ruby on Rails Developer
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Nov 2016 - Feb 2018
         body:
-          - Developed real-time communication systems using WebSocket technology
-          - Implemented secure payment processing features for B2B platform
-          - Built monitoring dashboards for business operation
+          - Developed real-time communication systems using Ruby on Rails and WebSocket technology
+          - Implemented secure payment processing features for a B2B healthcare platform
+          - Built monitoring dashboards for business operations and internal workflows
+          - Worked on full-stack product features across backend services, frontend interfaces, and database models
+
   - name: Skills
     children:
       - header:
-          subtitle: Haskell, Plutus, Plutarch, Smart Contract Development, PureScript, TypeScript, Python, Golang, Rust (basic), Coq (basic), Lean (basic), HTML, CSS, React, MySQL, PostgreSQL, Redis, NodeJS, Docker, AWS, Git
+          subtitle: "Languages: TypeScript, Haskell, Python, Go, Ruby, Rust (basic), PureScript"
+      - header:
+          subtitle: "Frontend: React, HTML, CSS, Wagmi, viem"
+      - header:
+          subtitle: "Backend: Node.js, Ruby on Rails, REST APIs, GraphQL, authentication, request validation"
+      - header:
+          subtitle: "Databases: PostgreSQL, MySQL, Redis, SQLite"
+      - header:
+          subtitle: "Blockchain: Plutus, Plutarch, Cardano, smart contract development, ERC-4337, wallet integrations"
+      - header:
+          subtitle: "Infrastructure & Tools: Docker, AWS, Git, CI/CD, Linux"
+      - header:
+          subtitle: "Other: Coq (basic), Lean (basic), AI-assisted development"

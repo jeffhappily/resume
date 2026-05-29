@@ -2,7 +2,29 @@ name: Generate PDF
 
 on:
   push:
-    branches: master
+    branches:
+      - "**"
+  workflow_dispatch:
+    inputs:
+      filename:
+        description: PDF filename to generate
+        required: true
+        default: jeff-cheah.pdf
+      publish_s3:
+        description: Upload the PDF to S3
+        required: true
+        type: boolean
+        default: true
+      s3_key:
+        description: Optional S3 key. Defaults to previews/<branch>/<run-number>/<filename> for non-master builds.
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+env:
+  PDF_FILENAME: ${{ github.event.inputs.filename || 'jeff-cheah.pdf' }}
 
 jobs:
   build:
@@ -28,12 +50,40 @@ jobs:
       - name: Generate PDF
         run: |
           make clean
-          make generate filename=jeff-cheah.pdf
+          make generate filename="$PDF_FILENAME"
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.PDF_FILENAME }}
+          path: ${{ env.PDF_FILENAME }}
+
+      - name: Resolve S3 key
+        id: s3
+        env:
+          S3_KEY_INPUT: ${{ github.event.inputs.s3_key }}
+        run: |
+          if [ "${GITHUB_EVENT_NAME}" = "push" ] && [ "${GITHUB_REF_NAME}" = "master" ]; then
+            key="$PDF_FILENAME"
+          elif [ -n "$S3_KEY_INPUT" ]; then
+            key="$S3_KEY_INPUT"
+          else
+            key="previews/${GITHUB_REF_NAME}/${GITHUB_RUN_NUMBER}/${PDF_FILENAME}"
+          fi
+
+          echo "key=$key" >> "$GITHUB_OUTPUT"
+          echo "url=https://resume-jeffhappily.s3.amazonaws.com/$key" >> "$GITHUB_OUTPUT"
 
       - name: Publish to s3 bucket
+        if: ${{ github.event_name == 'push' || github.event.inputs.publish_s3 == 'true' }}
         run: |
-          aws s3 cp jeff-cheah.pdf s3://resume-jeffhappily --acl public-read
+          aws s3 cp "$PDF_FILENAME" "s3://resume-jeffhappily/${{ steps.s3.outputs.key }}" --acl public-read
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: us-east-1
+
+      - name: Write summary
+        run: |
+          echo "PDF artifact: $PDF_FILENAME" >> "$GITHUB_STEP_SUMMARY"
+          echo "S3 URL when published: ${{ steps.s3.outputs.url }}" >> "$GITHUB_STEP_SUMMARY"
