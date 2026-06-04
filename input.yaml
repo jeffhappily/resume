@@ -10,19 +10,19 @@ sections:
   - name: Summary
     children:
       - header:
-          subtitle: Senior software engineer with experience building fintech, Web3, and full-stack applications across frontend systems, backend services, and blockchain infrastructure. Strong background in TypeScript, React, Rust, Haskell, Node.js, and PostgreSQL.
+          subtitle: Senior software engineer with 9+ years of experience building fintech, backend, and distributed systems across startups and global technology companies. Experience spanning payment systems, financial onboarding, KYC workflows, APIs, transaction processing, and blockchain applications.
 
   - name: Experience
     children:
       - header:
           title: FP Block
-          subtitle: Software Engineer - Full Stack & Web3
+          subtitle: Software Engineer - Full Stack
           extraHeader: Remote
           extraSubheader: Dec 2024 - May 2026
         body:
-          - Developed full-stack Web3 presale platform using TypeScript, React, Rust, and PostgreSQL, including wallet integration, ERC-4337 smart wallets, and gas abstraction flows
-          - Developed KYC and onboarding workflows integrating SumSub, Sardine, and fiat onramp providers for identity verification and payment flows
-          - Debugged complex wallet, transaction, and cross-platform edge cases across desktop and mobile environments
+          - Developed full-stack financial onboarding and transaction systems using TypeScript, React, Rust, and PostgreSQL, including wallet integration, ERC-4337 smart wallets, and gas abstraction flows
+          - Built KYC and onboarding workflows integrating SumSub, Sardine, and fiat onramp providers for identity verification and payment flows
+          - Debugged complex transaction, integration, and cross-platform edge cases across desktop and mobile environments
 
       - header:
           title: MLabs
@@ -97,4 +97,4 @@ sections:
   - name: Skills
     children:
       - header:
-          subtitle: "TypeScript, React, Node.js, PostgreSQL, GraphQL, Haskell, Rust, Golang, Ruby on Rails, Python, Docker, AWS, Redis, Smart Contracts, Plutus, Plutarch"
+          subtitle: "Haskell, Rust, TypeScript, PostgreSQL, Node.js, Golang, React, GraphQL, Docker, AWS, Redis, CI/CD, Distributed Systems, Smart Contracts, Plutus, Plutarch, Python"
