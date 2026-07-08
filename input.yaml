@@ -10,7 +10,7 @@ sections:
   - name: Summary
     children:
       - header:
-          subtitle: Senior software engineer with 9+ years of experience building fintech, backend, and distributed systems across startups and global technology companies. Experience spanning payment systems, financial onboarding, KYC workflows, APIs, transaction processing, and blockchain applications.
+          subtitle: Senior software engineer with 9+ years building fintech and on-chain financial systems, with deep focus on transaction correctness, validation, and safety under adversarial conditions. Experience spanning ERC-4337 account-abstraction wallets, smart contracts for a Cardano-based stablecoin, payment and KYC pipelines, and fraud prevention at consumer scale. Backend work across Rust, Node.js/TypeScript, Golang, and Haskell.
 
   - name: Experience
     children:
@@ -20,7 +20,8 @@ sections:
           extraHeader: Remote
           extraSubheader: Dec 2024 - May 2026
         body:
-          - Developed full-stack financial onboarding and transaction systems using TypeScript, React, Rust, and PostgreSQL, including wallet integration, ERC-4337 smart wallets, and gas abstraction flows
+          - Built backend services in Rust with PostgreSQL for financial onboarding and transaction processing
+          - Built the wallet layer in TypeScript and React, including ERC-4337 smart wallets, gas-abstraction (paymaster) flows, and external wallet integrations
           - Built KYC and onboarding workflows integrating SumSub, Sardine, and fiat onramp providers for identity verification and payment flows
           - Debugged complex transaction, integration, and cross-platform edge cases across desktop and mobile environments
 
@@ -30,7 +31,7 @@ sections:
           extraHeader: Remote
           extraSubheader: Dec 2023 - Nov 2024
         body:
-          - Built and optimized smart contract infrastructure for a Cardano-based stablecoin system using Haskell, Plutus, and Plutarch
+          - Built and optimized smart contracts and on-chain validation logic for a Cardano-based stablecoin using Haskell, Plutus, and Plutarch
           - Contributed to the <a href="https://cardano.ideascale.com/c/idea/121461">Yielding Transaction Pattern (YTxP)</a> library to improve transaction composability and validation efficiency
 
       - header:
@@ -48,8 +49,8 @@ sections:
           extraHeader: Remote
           extraSubheader: Jun 2021 - Jul 2022
         body:
-          - Developed smart contracts and transaction validation logic for Cardano-based financial applications using Haskell and Plutus
-          - Migrated validation logic toward Plutarch with focus on performance optimization and maintainability
+          - Developed smart contracts and transaction-validation logic for Cardano-based financial applications using Haskell and Plutus, reasoning through edge cases and failure modes where validation bugs carry direct financial risk
+          - Migrated validation logic toward Plutarch with focus on correctness, performance optimization, and maintainability
 
       - header:
           title: SEEK Asia
@@ -57,7 +58,7 @@ sections:
           extraHeader: Kuala Lumpur, Malaysia
           extraSubheader: Jul 2020 - Apr 2021
         body:
-          - Led migration of legacy PHP services to Node.js and TypeScript, improving maintainability and type safety
+          - Led migration of legacy PHP backend services to Node.js and TypeScript, improving maintainability and type safety
           - Designed validation systems using TypeScript and JSON Schema for safer data processing and API workflows
 
       - header:
@@ -76,7 +77,7 @@ sections:
           extraSubheader: Nov 2018 - Sep 2019
         body:
           - Developed safety-critical backend and frontend features using Golang and React
-          - Worked on real-time monitoring, fraud prevention, validation systems, and secure data flows
+          - Built real-time monitoring, fraud-prevention, and validation systems guarding against abuse and adversarial input across secure data flows
 
       - header:
           title: Revenue Monster
@@ -97,4 +98,4 @@ sections:
   - name: Skills
     children:
       - header:
-          subtitle: "Haskell, Rust, TypeScript, PostgreSQL, Node.js, Golang, React, GraphQL, Docker, AWS, Redis, CI/CD, Distributed Systems, Smart Contracts, Plutus, Plutarch, Python"
+          subtitle: "TypeScript, Node.js, JavaScript, React, Rust, Golang, Haskell, PostgreSQL, Redis, GraphQL, Microservices, Distributed Systems, Smart Contracts (ERC-4337, Plutus, Plutarch), Docker, AWS, CI/CD, Python"

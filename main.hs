@@ -106,9 +106,9 @@ $doctype 5
         <ul .contact-details>
           $forall c <- contact
             <li>#{preEscapedToHtml c}
-          <li>#{d}
       $forall section <- sections
         #{preEscapedToHtml $ sectionTemplate section}
+      <footer .resume-footer>Updated: #{d}
 |]
 
 inputFile :: String

@@ -52,6 +52,7 @@ h3 {
 }
 
 .wrapper {
+  position: relative;
   margin: 0 auto;
   padding: 20px 50px 0;
   border-radius: 4px;
@@ -142,4 +143,15 @@ table {
 
 .section-body-list {
   line-height: 20px;
+}
+
+.resume-footer {
+  position: absolute;
+  top: 22px;
+  right: 50px;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(118, 118, 118);
+  text-align: right;
+  font-style: italic;
 }
