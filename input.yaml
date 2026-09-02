@@ -11,36 +11,36 @@ sections:
 - name: Summary
   children:
   - header:
-      subtitle: Senior full-stack engineer with 9+ years building financial, healthcare, and consumer products. Strongest in TypeScript and React, with recent Rust and PostgreSQL backend work and experience following features across interfaces, APIs, provider integrations, databases, and transaction workflows.
+      subtitle: Senior engineer with 9+ years of full stack work building financial, healthcare, and consumer products. Strongest in TypeScript and React, with recent Rust and PostgreSQL backend work and experience following features across interfaces, APIs, provider integrations, databases, and transaction workflows.
 - name: Experience
   children:
   - header:
       title: FP Block
-      subtitle: Software Engineer - Full Stack
+      subtitle: Software Engineer, Full Stack
       extraHeader: Remote
-      extraSubheader: Dec 2024 - May 2026
+      extraSubheader: Apr 2025 - May 2026
     body:
     - Served as the main developer for much of a client product, working directly with the client and translating requirements into implementation across TypeScript/React, Rust, and PostgreSQL
-    - Owned the Sardine identity-verification integration across React and Rust, including signed webhooks, retries, client-token creation, user-state synchronization, API documentation, and tests
-    - Diagnosed a wallet SDK failure that changed fee fields after signing and implemented the lower-level transaction pipeline needed to restore the product's core purchase flow
+    - Owned the Sardine identity verification integration across React and Rust, including signed webhooks, retries, creation of client tokens, synchronization of user state, API documentation, and tests
+    - Diagnosed a wallet SDK failure that changed fee fields after signing and implemented the transaction pipeline at a lower abstraction level to restore the product's core purchase flow
   - header:
       title: MLabs
-      subtitle: Software Engineer - Haskell & Plutus
+      subtitle: Software Engineer, Haskell & Plutus
       extraHeader: Remote
       extraSubheader: Dec 2023 - Nov 2024
     body:
     - Developed Haskell and Plutus components across the Djed stablecoin and other Cardano protocols, including financial validation rules, transaction workflows, and automated integration tests
   - header:
       title: ETukTuk
-      subtitle: Software Engineer - Haskell & Plutus
+      subtitle: Software Engineer, Haskell & Plutus
       extraHeader: Remote
       extraSubheader: Sep 2022 - Jul 2023
     body:
-    - Designed and implemented a Cardano token-sale, vesting, and staking product as sole developer, using Haskell and Plutarch for contracts and TypeScript and Node.js for supporting tooling
-    - Built transaction chaining so a 50-wallet distribution could consume predicted treasury outputs sequentially instead of waiting for one block confirmation per wallet
+    - Designed and implemented a Cardano product for token sales, vesting, and staking as sole developer, using Haskell and Plutarch for contracts and TypeScript and Node.js for supporting tooling
+    - Built transaction chaining so a distribution across 50 wallets could consume predicted treasury outputs sequentially instead of waiting for one block confirmation per wallet
   - header:
       title: MLabs
-      subtitle: Software Engineer - Haskell & Plutus
+      subtitle: Software Engineer, Haskell & Plutus
       extraHeader: Remote
       extraSubheader: Jun 2021 - Jul 2022
     body:
@@ -51,35 +51,35 @@ sections:
       extraHeader: Kuala Lumpur, Malaysia
       extraSubheader: Jul 2020 - Apr 2021
     body:
-    - Contributed to modernizing JobStreet's employer-side backend from PHP to Node.js and TypeScript and introduced JSON Schema validation for untrusted legacy-service payloads
+    - Contributed to modernizing JobStreet's backend for employers from PHP to Node.js and TypeScript and introduced JSON Schema validation for untrusted payloads from legacy services
   - header:
       title: FP Complete
       subtitle: System Administrator
       extraHeader: Remote
       extraSubheader: Oct 2019 - Mar 2020
     body:
-    - Shipped merged <a href="https://github.com/commercialhaskell/stack/pull/5156">Stack</a> and <a href="https://github.com/commercialhaskell/stackage/pull/5173">Stackage</a> changes for Cabal 3 compatibility and automated Docker builds, and worked hands-on with Kubernetes and CI during a self-hosted GitLab upgrade
+    - Shipped merged <a href="https://github.com/commercialhaskell/stack/pull/5156">Stack</a> and <a href="https://github.com/commercialhaskell/stackage/pull/5173">Stackage</a> changes for Cabal 3 compatibility and automated Docker builds, and worked directly with Kubernetes and CI during an upgrade to the company's own GitLab CI server
   - header:
       title: Grab
-      subtitle: Software Engineer - Full Stack
+      subtitle: Software Engineer, Full Stack
       extraHeader: Selangor, Malaysia
-      extraSubheader: Nov 2018 - Sep 2019
+      extraSubheader: Oct 2018 - Sep 2019
     body:
-    - Worked on Go and React trip-safety features spanning internal incident monitoring, real-time ride-location sharing, and phone-sensor collision detection
+    - Worked on Go and React trip safety features spanning internal incident monitoring, live ride location sharing, and collision detection using phone motion sensors
   - header:
       title: Revenue Monster
       subtitle: Associate Full Stack Developer
       extraHeader: Kuala Lumpur, Malaysia
       extraSubheader: Mar 2018 - Oct 2018
     body:
-    - Contributed to the Go backend and TypeScript and React merchant reporting for payment-gateway customers, and worked on the Vue.js and Vuex WeTix movie-ticket frontend
+    - Contributed to the Go backend and TypeScript and React merchant reporting for payment gateway customers, and worked on the Vue.js and Vuex WeTix movie ticket frontend
   - header:
       title: Teleme
       subtitle: Ruby on Rails Developer
       extraHeader: Kuala Lumpur, Malaysia
       extraSubheader: Nov 2016 - Feb 2018
     body:
-    - Developed WebSocket-based real-time communication, payment-processing, and operational monitoring features in Ruby on Rails for a B2B healthcare platform
+    - Developed live communication using WebSockets, payment processing, and operational monitoring features in Ruby on Rails for a B2B healthcare platform
 - name: Skills
   children:
   - header:
